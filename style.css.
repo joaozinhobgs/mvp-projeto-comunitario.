@@ -1,0 +1,164 @@
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #243047;
+  background: #f4f7fb;
+}
+
+body {
+  margin: 0;
+  line-height: 1.6;
+}
+
+header {
+  padding: 28px 20px;
+  color: white;
+  background: #176b52;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+header p {
+  margin-bottom: 0;
+}
+
+main {
+  width: min(100% - 32px, 900px);
+  margin: 24px auto;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 22px;
+  background: white;
+  border: 1px solid #dce4ec;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #2430470a;
+}
+
+h2 {
+  margin-top: 0;
+  color: #176b52;
+  font-size: 1.25rem;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+label {
+  margin-top: 6px;
+  font-weight: bold;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  border-radius: 7px;
+  font: inherit;
+}
+
+input,
+select {
+  border: 1px solid #9baabd;
+  background: white;
+  color: #243047;
+}
+
+input:focus,
+select:focus,
+button:focus-visible {
+  outline: 3px solid #e8b949;
+  outline-offset: 2px;
+}
+
+button {
+  margin-top: 8px;
+  border: none;
+  background: #176b52;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #10513e;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+#mensagem {
+  font-weight: bold;
+}
+
+.tabela-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 12px 8px;
+  border-bottom: 1px solid #dce4ec;
+}
+
+th {
+  background: #edf5f1;
+}
+
+.status-baixo {
+  color: #a32929;
+  font-weight: bold;
+}
+
+.status-ok {
+  color: #176b52;
+  font-weight: bold;
+}
+
+footer {
+  padding: 16px;
+  text-align: center;
+  color: #526176;
+}
+
+@media (max-width: 480px) {
+  main {
+    width: calc(100% - 20px);
+    margin-top: 12px;
+  }
+
+  section {
+    padding: 16px;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  th,
+  td {
+    padding: 10px 6px;
+    font-size: 0.9rem;
+  }
+}
