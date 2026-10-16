@@ -20,6 +20,6 @@ CSS
 
 JavaScript
 
-Etapas de desenvolvimento
+
 
 
