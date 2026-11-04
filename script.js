@@ -194,6 +194,8 @@ formMovimentacao.addEventListener("submit", (evento) => {
     return;
   }
 
+  // Atualiza a tabela, o resumo e as opções de produtos na tela.
+  function renderizarProdutos() {
   renderizarProdutos();
   formMovimentacao.reset();
   mensagem.textContent = tipo === "entrada"
