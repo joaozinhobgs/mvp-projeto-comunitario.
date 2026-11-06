@@ -23,4 +23,4 @@ jobs:
         run: npm test
 
       - name: Verificar cobertura
-        run: npm run coveragefo
+       run: npm run coverage
