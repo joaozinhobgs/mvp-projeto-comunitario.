@@ -1,0 +1,19 @@
+{
+  "name": "mvp-projeto-comunitario.-main",
+  "version": "1.0.0",
+  "description": "MVP — Projeto Comunitário",
+  "main": "script.js",
+  "scripts": {
+    "test": "vitest run",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^5.1.0",
+    "jsdom": "^31.0.0",
+    "vitest": "^5.1.0"
+  }
+}
